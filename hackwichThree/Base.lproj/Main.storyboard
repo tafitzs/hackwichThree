@@ -85,7 +85,7 @@
         <scene sceneID="Kr2-Ih-xTb">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xxX-Js-xA8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" selectedImage="about" id="pPR-TY-Klw"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="about" selectedImage="about" id="pPR-TY-Klw"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i18-EY-T37">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -104,7 +104,7 @@
         <scene sceneID="O8P-yS-kpT">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RQg-Fj-WhW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" selectedImage="about" id="BpA-Xz-PV8"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="about" selectedImage="about" id="BpA-Xz-PV8"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aDY-nj-db2">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
