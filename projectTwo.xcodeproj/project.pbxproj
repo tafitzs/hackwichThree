@@ -15,7 +15,7 @@
 		753F56D62028EA2E000994DA /* hackwichThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753F56D52028EA2E000994DA /* hackwichThreeTests.swift */; };
 		753F56E12028EA2E000994DA /* hackwichThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753F56E02028EA2E000994DA /* hackwichThreeUITests.swift */; };
 		753F56EF2028F257000994DA /* viewControllerTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753F56EE2028F257000994DA /* viewControllerTwoViewController.swift */; };
-		755C3172205FC15200AA2C4C /* viewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755C3171205FC15200AA2C4C /* viewControllerThree.swift */; };
+		755C3172205FC15200AA2C4C /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755C3171205FC15200AA2C4C /* ViewControllerThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		753F56E02028EA2E000994DA /* hackwichThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackwichThreeUITests.swift; sourceTree = "<group>"; };
 		753F56E22028EA2E000994DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		753F56EE2028F257000994DA /* viewControllerTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerTwoViewController.swift; sourceTree = "<group>"; };
-		755C3171205FC15200AA2C4C /* viewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerThree.swift; sourceTree = "<group>"; };
+		755C3171205FC15200AA2C4C /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		753F56BF2028EA2E000994DA /* hackwichThree */ = {
 			isa = PBXGroup;
 			children = (
-				755C3171205FC15200AA2C4C /* viewControllerThree.swift */,
+				755C3171205FC15200AA2C4C /* ViewControllerThree.swift */,
 				753F56C02028EA2E000994DA /* AppDelegate.swift */,
 				753F56C22028EA2E000994DA /* viewControllerOne.swift */,
 				753F56C42028EA2E000994DA /* Main.storyboard */,
@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 753F56B82028EA2E000994DA /* Build configuration list for PBXProject "hackwichThree" */;
+			buildConfigurationList = 753F56B82028EA2E000994DA /* Build configuration list for PBXProject "projectTwo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -268,7 +268,7 @@
 				753F56C32028EA2E000994DA /* viewControllerOne.swift in Sources */,
 				753F56C12028EA2E000994DA /* AppDelegate.swift in Sources */,
 				753F56EF2028F257000994DA /* viewControllerTwoViewController.swift in Sources */,
-				755C3172205FC15200AA2C4C /* viewControllerThree.swift in Sources */,
+				755C3172205FC15200AA2C4C /* ViewControllerThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		753F56B82028EA2E000994DA /* Build configuration list for PBXProject "hackwichThree" */ = {
+		753F56B82028EA2E000994DA /* Build configuration list for PBXProject "projectTwo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				753F56E32028EA2E000994DA /* Debug */,
