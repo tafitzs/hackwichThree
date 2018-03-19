@@ -10,8 +10,13 @@ import UIKit
 
 class viewControllerTwo: UIViewController {
 
+    @IBOutlet var Input: UITextField!
+    @IBOutlet var Result: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+      
 
         // Do any additional setup after loading the view.
     }
@@ -20,6 +25,19 @@ class viewControllerTwo: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func convertButtonPressed(_ sender: Any) {
+       
+        
+       let enterFahrenheit = Int(Input.text!)!
+        
+        let celsius = (enterFahrenheit - 32) * 5/9
+        
+     
+        Result.text = "It is \(celsius) °C Celsius."
+    }
+  
+    
     
 
     /*
