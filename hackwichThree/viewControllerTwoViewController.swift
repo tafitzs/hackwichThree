@@ -11,6 +11,7 @@ import UIKit
 class viewControllerTwo: UIViewController {
 
     @IBOutlet var Input: UITextField!
+    
     @IBOutlet var Result: UILabel!
     
     

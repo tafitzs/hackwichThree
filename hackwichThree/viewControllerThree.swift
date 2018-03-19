@@ -8,10 +8,11 @@
 
 import UIKit
 
-class ViewControllerThree: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewControllerThree: UIViewController, UITableViewDelegate, UITableViewDataSource
+{
 
 
-    var bucketList = ["Swim with Sharks","Travel to Japan", "Go to all 50 States", "Skydive", "Get My Bachelors"]
+  var bucketList = ["Swim with Sharks","Travel to Japan", "Go to all 50 States", "Skydive", "Get My Bachelors"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,15 +26,15 @@ class ViewControllerThree: UIViewController, UITableViewDelegate, UITableViewDat
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return bucketList.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")!
         let text = bucketList[indexPath.row]
         cell.textLabel?.text = text
-        return cell
+       return cell
     }
 
     /*
